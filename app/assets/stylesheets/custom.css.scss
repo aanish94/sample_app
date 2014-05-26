@@ -1,0 +1,135 @@
+@import "bootstrap";
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 60px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resive: vertical;
+}
+
+.center {
+	text-align: center;
+	h1 {
+		margin-bottom: 10px;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: $grayLight;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+
+	&.hover {
+		color: blue;
+		text-decoration: none;
+	}
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: $grayLight;
+	a {
+		color: #555;
+		&:hover {
+			color: #222;
+		}
+	}
+ 	small {
+		float: left;
+	}
+ 	ul {
+		float: right;
+		list-style: none;
+		li {
+			float: left;
+			margin-left: 10px;
+		}
+	}
+}
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
